@@ -24,6 +24,9 @@
     color: #E5E7EB;
     background-color: #1F2937;
 }
+.mainBody {
+    margin: 0px;
+}
 .flex-container {
     margin: 10px 50px 0 50px;
     display: flex;
