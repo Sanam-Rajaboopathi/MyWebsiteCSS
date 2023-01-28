@@ -1,14 +1,14 @@
 @font-face {
     font-family: "RobotoThin";
-    src: url(./fonts/Roboto-Thin.ttf);
+    src: url(../fonts/Roboto-Thin.ttf);
 }
 @font-face {
     font-family: "RobotoBold";
-    src: url(./fonts/Roboto-Bold.ttf);
+    src: url(../fonts/Roboto-Bold.ttf);
 }
 @font-face {
     font-family: "RobotoLightItalic";
-    src: url(./fonts/Roboto-LightItalic.ttf);
+    src: url(../fonts/Roboto-LightItalic.ttf);
 }
 
 .footer {
@@ -20,26 +20,22 @@
     padding-bottom: 12px;
     font-size: 10px;
 }
-.main{
+.main {
     color: #E5E7EB;
     background-color: #1F2937;
 }
-.mainBody {
+body {
     margin: 0px;
 }
 .flex-container {
-    margin: 10px 50px 0 50px;
     display: flex;
-    /* flex-direction: column; */
 }
 .links {
-    /* height: 80px; */
     font-size: 18px;
     color: #E5E7EB;
     flex-grow: 1;
     display: flex;
     justify-content: right;
-    align-items: center;
 }
 .links div {
     padding: 0 10px 0 10px;
@@ -48,7 +44,12 @@
     font-size: 24px;
     color: #F9FAF8;
     font-family: 'RobotoBold';
-    margin-top: 10px;
+    margin: 10px;
+}
+.headerLinks {
+    margin: 0rem 1rem 0rem 1rem;
+    color: #F9FAF8;
+    text-decoration: none;
 }
 .mainText {
     font-size: 48px;
@@ -73,9 +74,6 @@
     height: 24px;
     margin-top: 8rem
 }
-img {
-    inline-size: -webkit-fill-available;
-}
 .quote {
     background-color: #E5E7EB;
     margin: 2rem 0 2rem 0;
@@ -93,14 +91,11 @@ img {
 }
 .infoContainer {
     display: flex;
+    margin-top: 2rem;
 }
 .firstInfo, .secondInfo, .thirdInfo, .fourthInfo {
-    flex: 1;
-    border-color: #3882F6;
-    border-style: groove;
-    height: 110px;
+    flex: 1;  
     margin: 46px 98px 0 98px;
-    border-radius: 8px;
 }
 .infoText {
     flex: 1;
@@ -116,7 +111,7 @@ img {
     display: flex;
 }
 .actionText {
-    padding: 20px 100px 20px 100px;
+    padding: 0px 100px 0px 100px;
 }
 .actionSignup {
     border-radius: 6px;
@@ -133,23 +128,36 @@ img {
 }
 .fourthImg {
     width: 8rem;
-    height: 6.9rem;
+    height: 6rem;
+    border-color: #3882F6;
+    border-style: groove;
+    border-radius: 8px;
 }
 .thirdImg {
     width: 8rem;
     height: 6rem;
+    border-color: #3882F6;
+    border-style: groove;
+    border-radius: 8px;
 }
 .secondImg {
-    height: 6.8rem;
+    width: 8rem;
+    height: 6rem;
+    border-color: #3882F6;
+    border-style: groove;
+    border-radius: 8px;
 }
 .firstImg {
     width: 8rem;
     height: 6rem;
+    border-color: #3882F6;
+    border-style: groove;
+    border-radius: 8px;
 }
 .logoImg {
-    width: 3rem;
     height: 4rem;
 }
 .shopImg {
     height: 20rem;
+    width: 40rem;
 }
